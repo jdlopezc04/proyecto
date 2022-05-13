@@ -13,8 +13,7 @@ si  __nombre__  ==  '__principal__' :
  imprimir ( diccionario )
  palabraCorrecta = False # variable para repetir el loop/while
  while not(palabraCorrecta): # loop que se ejecuta hasta que palabraCorrecta sea True
-     print('>>> INTRODUCIR PALABRA DE 5 LETRAS')
-     palabra = input() # variable de input
+    palabra = input('>>> INTRODUCIR PALABRA DE 5 LETRAS') # variable de input
      errors = []
      if len(palabra) is not 5: # verifica si la palabra no tiene 5 caracteres
         errors.append('NO ES DE 5 LETRAS')
