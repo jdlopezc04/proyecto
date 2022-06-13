@@ -38,5 +38,6 @@ if __name__ == '__main__':
         else:
             print(palabraParaMostrar)    
             intentos -= 1
+            print ('>>> TE QUEDAN ' + str(intentos) + ' INTENTOS')
      else:
         print('>>> ERROR: La palabra introducida '+','.join(errors)+'. Por favor vuelva a ingresar una palabra')
